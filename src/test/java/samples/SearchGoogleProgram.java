@@ -24,7 +24,7 @@ public class SearchGoogleProgram {
 	@Test
 	public void search(){
 		driver.findElement(By.name("q")).sendKeys("Hellow google",Keys.ENTER);
-		System.out.println("Successfuly job done");
+		System.out.println("First test runs successfully");
 		
 		
 		
